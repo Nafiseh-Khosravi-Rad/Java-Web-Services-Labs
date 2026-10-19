@@ -1,0 +1,253 @@
+{
+  "info": {
+    "_postman_id": "17553993-8423-4b7e-896a-9995cf10a911",
+    "name": "Lab 3 Testing",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+    "_exporter_id": "57913084"
+  },
+  "item": [
+    {
+      "name": "HelloREST Test 1",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "http://localhost:8081/WebHelloRESTProject/rest/HiHi",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "8081",
+          "path": [
+            "WebHelloRESTProject",
+            "rest",
+            "HiHi"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "HelloREST Test 2",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "http://localhost:8081/WebHelloRESTProject/rest/HiHi/html",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "8081",
+          "path": [
+            "WebHelloRESTProject",
+            "rest",
+            "HiHi",
+            "html"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "HelloREST Test 3",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "http://localhost:8081/WebHelloRESTProject/rest/HiHi/json",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "8081",
+          "path": [
+            "WebHelloRESTProject",
+            "rest",
+            "HiHi",
+            "json"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "MathOp Testing 2",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "http://localhost:8081/WebMathOperationsRESTProject/rest/MathOp/json",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "8081",
+          "path": [
+            "WebMathOperationsRESTProject",
+            "rest",
+            "MathOp",
+            "json"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "MathOp Testing 3",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "http://localhost:8081/WebMathOperationsRESTProject/rest/MathOp/listArray",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "8081",
+          "path": [
+            "WebMathOperationsRESTProject",
+            "rest",
+            "MathOp",
+            "listArray"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "MathOp Testing 4",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "http://localhost:8081/WebMathOperationsRESTProject/rest/MathOp/OpHashMap/4",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "8081",
+          "path": [
+            "WebMathOperationsRESTProject",
+            "rest",
+            "MathOp",
+            "OpHashMap",
+            "4"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "CarREST Test 1",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "http://localhost:8081/WebCarRESTProject/rest/WebCar",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "8081",
+          "path": [
+            "WebCarRESTProject",
+            "rest",
+            "WebCar"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "CarREST Test 2",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "http://localhost:8081/WebCarRESTProject/rest/WebCar/text",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "8081",
+          "path": [
+            "WebCarRESTProject",
+            "rest",
+            "WebCar",
+            "text"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "CarREST Test 3",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "http://localhost:8081/WebCarRESTProject/rest/WebCar/json",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "8081",
+          "path": [
+            "WebCarRESTProject",
+            "rest",
+            "WebCar",
+            "json"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "CarREST Test 4",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "http://localhost:8081/WebCarRESTProject/rest/WebCar/searchCar/K1245",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "8081",
+          "path": [
+            "WebCarRESTProject",
+            "rest",
+            "WebCar",
+            "searchCar",
+            "K1245"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "BillingREST Test 3",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "http://localhost:8081/WebBillingRESTProject/rest/WebBilling/searchBilling/1",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "8081",
+          "path": [
+            "WebBillingRESTProject",
+            "rest",
+            "WebBilling",
+            "searchBilling",
+            "1"
+          ]
+        }
+      },
+      "response": []
+    }
+  ]
+}
